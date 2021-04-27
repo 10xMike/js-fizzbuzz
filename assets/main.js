@@ -10,7 +10,7 @@ for(var i = 0; i < 100; i++){
         console.log('Buzz')
         // ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz
     } else {
-        console.log('Non è Fizz, Buzz, o Fizzbuzz')
+        console.log(number)
     }
 }       
 
