@@ -1,6 +1,6 @@
 // Scrivi un programma che stampi i numeri da 1 a 100,
-for(var i = 0; i < 100; i++){
-    var number = i + 1
+for(var i = 0; i < 101; i++){
+    
     if (number % 3 == 0 && number % 5 == 0){
         console.log('Fizzbuzz')
         // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
@@ -12,8 +12,6 @@ for(var i = 0; i < 100; i++){
     } else {
         console.log(number)
     }
-}       
-
-// non mi quadrano i conti con i multipli; 
+}
 
 
