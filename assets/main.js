@@ -1,5 +1,5 @@
 // Scrivi un programma che stampi i numeri da 1 a 100,
-for(var i = 0; i < 101; i++){
+for(var i = 0; i < 100; i++){
     var number = i + 1
     if (number % 3 == 0 && number % 5 == 0){
         console.log('Fizzbuzz')
